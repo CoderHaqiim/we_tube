@@ -6,7 +6,7 @@ export default function Shortcard({author,img}) {
       <div className="h-auto w-full bg-cover rounded-rounded2" style={{aspectRatio:"9/16", backgroundImage:`url(${img})`}} ></div>
       <div className='text-textcolor'>
         <div>{author}</div>
-        <div className='text-sm2 text-wrap text-textcolor'>Talking Bullshit for a living on a sunday and on a tuesday </div>
+        <div className='text-sm2 text-wrap text-textcolor'>Good tutorials free for everyone </div>
       </div>
     </div>
   )
