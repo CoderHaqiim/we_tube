@@ -44,25 +44,13 @@ body::-webkit-scrollbar-button:single-button:vertical:decrement {
 body::-webkit-scrollbar-button:single-button:vertical:increment {
     background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="rgb(164, 164, 164)" d="M12 16l-6-6h12z"/></svg>');
 }
-
-.curtain, .categories::after{
-    content:" ";
-    width:150px;
-    height: 100%;
-    position:absolute;
-    top:0px;
-}
-.curtain{
-    width:100px;
-    left:-3px;
-    display:block;
-    background:linear-gradient(270deg, transparent,#0f0f0f,#0f0f0f);
-}
-.categories::after{
-    right:0px;
+.curtain2{
     background:linear-gradient(90deg, transparent,#0f0f0f 20%);
 }
 
+.curtain{
+    background:linear-gradient(270deg, transparent,#0f0f0f,#0f0f0f);
+}
 input{
     color:#ffff0011;
 }
